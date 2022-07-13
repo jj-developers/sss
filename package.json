@@ -1,0 +1,18 @@
+{
+  "name": "shopee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "s.js",
+  "scripts": {
+    "s": "nodemon s.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.1",
+    "node-telegram-bot-api": "^0.58.0",
+    "nodemon": "^2.0.19",
+    "puppeteer": "^15.4.0"
+  }
+}
