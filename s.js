@@ -34,7 +34,7 @@ bot.on('message', (msg) => {
 });
 
 l("Servidor iniciado");
-cron.schedule('*/1 * * * *',async () => {
+cron.schedule('*/3 * * * *',async () => {
 
 (async () => {
     const browser = await puppeteer.launch({
